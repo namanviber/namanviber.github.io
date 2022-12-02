@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+
+    <link rel="stylesheet" href="CSS Files/cart.css">
+    <link rel="stylesheet" href="CSS Files/blog.css">
+    <link rel="stylesheet" href="CSS Files/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a href="/index.html">
+            <button class="buttons">
+                <img src="../Images/logo.png" alt="Game Ghoul">
+            </button>
+        </a>
+        <div class="tabs">
+            <a href="/">Home</a>
+            <a href="/Blog.html">Blog</a>
+            <a href="/Reviews.html">Review</a>
+            <a href="/Shop.html">Shop</a>
+        </div>
+
+
+        <div class="log">
+            <input type="email" name="" id="" placeholder="  Search...">
+            <a href="/Cart.html">
+                <button class="buttons">
+                    <img src="../Images/Icons/cart.png">
+            </a>
+            <a href="/Login.html">
+                <button class="buttons">
+                    <img src="../Images/profile.png">
+                </button>
+            </a>
+        </div>
+    </div>
+    <main>
+        <div class="cart_main">
+            <div></div>
+            <div class="cart_contents">
+                <div class="head">
+                    <div class="cart_title">
+                        <h2>Cart</h2>
+                    </div>
+                    <div class="price_title">
+                        <h4>Price</h4>
+                    </div>
+                </div>
+
+                <div class="cart_body">
+                    <hr>
+                    <div class="items">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="Images/review9.jpg">
+                            </div>
+                            <div class="item_details">
+                                <div class="itm_info">
+                                    <h3>Stray PC game (digital edition)</h3>
+                                    <div class="quantity">
+                                        <span>Qty</span>
+                                        <span class="value">1</span>
+                                        <div class="add" onclick="AddItem()">-</div>
+                                        <div class="remove" onclick="RemoveItem()">+</div>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h4>$ 14.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="Images/review9.jpg">
+                            </div>
+                            <div class="item_details">
+                                <div class="itm_info">
+                                    <h3>Stray PC game (digital edition)</h3>
+                                    <div class="quantity">
+                                        <span>Qty</span>
+                                        <span class="value">1</span>
+                                        <div class="add" onclick="AddItem()">-</div>
+                                        <div class="remove" onclick="RemoveItem()">+</div>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <h4>$ 14.99</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="End">
+                        <div class="Checkout" onclick="Total()">
+                            Checkout
+                        </div>
+                        <div class="total">
+                            $ 29.98
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div></div>
+        </div>
+    </main>
+
+
+    <div class="footer">
+        <div class="foot-left">
+            <a href="/index.html">
+                <button class="buttons">
+                    <img src="/Images/logo.png" alt="Game Ghoul">
+                </button>
+            </a>
+            <div class="ftab">
+                <a href="/index.html">Home</a>
+                <a href="/Blog.html">Blog</a>
+                <a href="/Reviews.html">Review</a>
+            </div>
+            <div class="ftab1">
+                <a href="/Shop.html">Shop</a>
+                <a href="/Product.html">Games</a>
+                <a href="/Product.html">Accessories</a>
+                <a href="/Product.html">Apparels</a>
+            </div>
+            <div class="ftab">
+                <a href="/Cart.html">Cart</a>
+                <a href="/Login.html">Login</a>
+            </div>
+        </div>
+        <div class="foot-cont">
+            <div class="foot-head">
+                <h3>Follow us on</h3>
+            </div>
+            <div class="log1">
+                <a href="#">
+                    <button class="buttons">
+                        <img src="/Images/twitter.png">
+                    </button>
+                </a>
+                <a href="instagram://user?username={gameghoul77}">
+                    <button class="buttons">
+                        <img src="/Images/instagram.png">
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="buttons">
+                        <img src="/Images/twitch.png">
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="buttons">
+                        <img src="/Images/discord.png">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="JS Files\Cart.js"></script>
+</body>
+
+</html>

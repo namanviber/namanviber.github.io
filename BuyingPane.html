@@ -1,0 +1,170 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xbox Video Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS Files/BuyingPane.css">
+  <link rel="stylesheet" href="/CSS Files/header.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <div class="header">
+    <a href="/index.html">
+      <button class="buttons">
+        <img src="../Images/logo.png" alt="Game Ghoul">
+      </button>
+    </a>
+    <div class="tabs">
+      <a href="/">Home</a>
+      <a href="/Blog.html">Blog</a>
+      <a href="/Reviews.html">Review</a>
+      <a href="/Shop.html">Shop</a>
+    </div>
+
+
+    <div class="log">
+      <input type="email" name="" id="" placeholder="  Search...">
+      <a href="/Cart.html">
+        <button class="buttons">
+          <img src="../Images/Icons/cart.png">
+      </a>
+      <a href="/Login.html">
+        <button class="buttons">
+          <img src="../Images/profile.png">
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <!-- Slide Show -->
+
+  <div class="badhiya">
+    <div class="container">
+      <div class="mySlides"></div>
+      <div class="mySlides"></div>
+      <div class="mySlides"></div>
+      <div class="mySlides"></div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="row">
+        <div class="column" onclick="currentSlide(1)"> </div>
+        <div class="column" onclick="currentSlide(2)"> </div>
+        <div class="column" onclick="currentSlide(3)"> </div>
+        <div class="column" onclick="currentSlide(4)"> </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--Text for Slide Show-->
+
+    <div class="waah">
+      <div class="productdescription"></div>
+
+    <!-- Product description -->
+
+    <div class="description"></div>
+
+    <!--Add to Cart-->
+    <a href="Cart.html">
+    <button class="addtocart" onclick="clickAlert()">
+      ADD TO CART
+    </button>
+    </a>
+
+
+    <!--Reviews-->
+
+    <div class="review">
+      <div class="stars">
+        <div class="icon">
+        </div>
+        <div class="content">
+          <div class="name"></div>
+          <!-- <div class="Rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div> -->
+        </div>
+      </div>
+      <div class="materialreview"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+
+  <div class="footer">
+    <div class="foot-left">
+      <a href="/index.html">
+        <button class="buttons">
+          <img src="/Images/logo.png" alt="Game Ghoul">
+        </button>
+      </a>
+      <div class="ftab">
+        <a href="/index.html">Home</a>
+        <a href="/Blog.html">Blog</a>
+        <a href="/Reviews.html">Review</a>
+      </div>
+      <div class="ftab1">
+        <a href="/Shop.html">Shop</a>
+        <a href="/Product.html">Games</a>
+        <a href="/Product.html">Accessories</a>
+        <a href="/Product.html">Apparels</a>
+      </div>
+      <div class="ftab">
+        <a href="/Cart.html">Cart</a>
+        <a href="/Login.html">Login</a>
+      </div>
+    </div>
+    <div class="foot-cont">
+      <div class="foot-head">
+        <h3>Follow us on</h3>
+      </div>
+      <div class="log1">
+        <a href="#">
+          <button class="buttons">
+            <img src="/Images/twitter.png">
+          </button>
+        </a>
+        <a href="instagram://user?username={gameghoul77}">
+          <button class="buttons">
+            <img src="/Images/instagram.png">
+          </button>
+        </a>
+        <a href="#">
+          <button class="buttons">
+            <img src="/Images/twitch.png">
+          </button>
+        </a>
+        <a href="#">
+          <button class="buttons">
+            <img src="/Images/discord.png">
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Java Script -->
+
+  <script src="JS Files\Buyingpane.js"></script>
+
+</body>
+
+</html>
