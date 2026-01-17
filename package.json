@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.4",
+    "nodemon": "^1.14.9"
+  },
+  "name": "game-ghoul-website",
+  "description": "Game Ghoul is a gaming blog and accessory store where users may browse the newest trends in accessories and read several articles on gaming.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

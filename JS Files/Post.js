@@ -1,5 +1,5 @@
 async function Build_Post() {
-    let request = new Request("Post.json")
+    let request = new Request("JSON Files/Post.json")
     let response = await fetch(request)
     let json_obj = await response.json()
 

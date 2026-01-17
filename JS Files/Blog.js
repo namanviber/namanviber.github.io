@@ -5,7 +5,7 @@ async function Build_Blog() {
 
     Featured_blog_post(json_obj)
     New_Posts(json_obj)
-    Blog_post(json_obj)
+    // Blog_post(json_obj)
     More_blog_post(json_obj)
 }
 

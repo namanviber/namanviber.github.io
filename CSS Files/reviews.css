@@ -106,11 +106,12 @@ a:hover {
     font-size: 0.8vw;
 }
 
-.list li a {
+.list li a{
     display: inline-grid;
     font-family: Outfit;
     font-size: 0.8vw;
     letter-spacing: 0.3vw;
+    color: white;
 }
 
 .list li a div {
@@ -320,4 +321,7 @@ a:hover {
     letter-spacing: 0.1vw;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.New_title{
+    color: white;
 }

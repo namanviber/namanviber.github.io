@@ -5,14 +5,8 @@
   position: relative;
 }
 
-.mySlides img {
-  width: 100%;
-}
-
 .productdescription {
   margin-left: 5em;
-  color: white;
-  font-weight: bold;
 }
 
 .Greenbox {
@@ -61,13 +55,6 @@
   color: white;
 }
 
-.description ul{
-  margin: 20px 3px 0px -5px;
-}
-
-.description li{
-  margin-top: 10px;
-}
 .review {
   margin-top: 5em;
   height: 14.3em;
@@ -97,12 +84,12 @@
 }
 
 
-.icon img{
-  margin-top: 2.2vw;
+.icon {
+  margin-top: 10px;
   flex-direction: column;
-  margin-left: 1.5vw;
-  width: 2.5vw;
-  height: 2.5vw;
+  margin-left: 0.5em;
+  width: 4em;
+  height: 4em;
 }
 
 .materialreview {
@@ -127,13 +114,12 @@
   cursor: pointer;
 }
 
-.column img {
-  width: 100%;
+.demo {
   opacity: 0.6;
 }
 
 .active,
-.column img:hover {
+.demo:hover {
   opacity: 1;
   cursor: pointer;
 }

@@ -11,7 +11,7 @@ body{
 }
 
 .img_container img{
-    height:38vw;
+    height:30vw;
 }
 
 .typewriter {
@@ -24,11 +24,12 @@ body{
 }
 
 .typewriter h1 {
+    font-size: medium;
     overflow: hidden;
-    border-right: .15em solid #f62153;
+    border-right: .1em solid #f62153;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -186,11 +187,12 @@ body{
     color: white;
     border-top-left-radius: 50px;
     padding: 1vw;
+    padding-bottom: 3.3vw;
 }
 
 .block2 {
     width: 65%;
-    height: 18.4vw;
+    height: 19.4vw;
 }
 
 .row_news {
@@ -200,8 +202,8 @@ body{
 }
 
 .sub_block {
-    padding: 1vw;
-    padding-bottom: 2vw;
+    padding: 1.5vw;
+    padding-bottom: 2.5vw;
     width: 40%;
     height: 8vw;
     border: 5px solid white;
