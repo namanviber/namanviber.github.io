@@ -1,5 +1,7 @@
 # 🎮 Game Ghoul (Official Website)
 
+**Game Ghoul is a dynamic gaming blog and accessory e-commerce platform. It provides users with the latest gaming trends, detailed articles, and a curated selection of gaming accessories.**
+
 This repository serves two purposes:
 1.  **🚀 Live Website:** The root directory contains the static version of the site served via [GitHub Pages](https://namanviber.github.io).
 2.  **🛠️ Development:** It also contains the source code for the dynamic Node.js/Express version of the application.
